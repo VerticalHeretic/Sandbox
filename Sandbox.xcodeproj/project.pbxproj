@@ -12,6 +12,8 @@
 		A0A463212A724870006AA7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A463202A724870006AA7C0 /* Assets.xcassets */; };
 		A0A463242A724870006AA7C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A463232A724870006AA7C0 /* Preview Assets.xcassets */; };
 		A0A4632C2A72489F006AA7C0 /* Capitalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4632B2A72489F006AA7C0 /* Capitalized.swift */; };
+		A0A4632E2A725438006AA7C0 /* PlainUserDefaultsBacked.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4632D2A725438006AA7C0 /* PlainUserDefaultsBacked.swift */; };
+		A0A463302A7256E7006AA7C0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4632F2A7256E7006AA7C0 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		A0A463202A724870006AA7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0A463232A724870006AA7C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0A4632B2A72489F006AA7C0 /* Capitalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capitalized.swift; sourceTree = "<group>"; };
+		A0A4632D2A725438006AA7C0 /* PlainUserDefaultsBacked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainUserDefaultsBacked.swift; sourceTree = "<group>"; };
+		A0A4632F2A7256E7006AA7C0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				A0A4632B2A72489F006AA7C0 /* Capitalized.swift */,
+				A0A4632D2A725438006AA7C0 /* PlainUserDefaultsBacked.swift */,
+				A0A4632F2A7256E7006AA7C0 /* Color.swift */,
 			);
 			path = PropertieWrappers;
 			sourceTree = "<group>";
@@ -149,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A4631F2A72486D006AA7C0 /* ContentView.swift in Sources */,
+				A0A4632E2A725438006AA7C0 /* PlainUserDefaultsBacked.swift in Sources */,
 				A0A4632C2A72489F006AA7C0 /* Capitalized.swift in Sources */,
+				A0A463302A7256E7006AA7C0 /* Color.swift in Sources */,
 				A0A4631D2A72486D006AA7C0 /* SandboxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,8 +12,12 @@ struct ContentView: View {
     @State var lastName = CapitalizedWrapper(_value: "stachnik")
     
     var body: some View {
-        CapitalizedNamesView(firstName: $firstName,
-                             lastName: $lastName)
+        VStack {
+            CapitalizedNamesView(firstName: $firstName,
+                                 lastName: $lastName)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(uiColor: Colors.background))
     }
 }
 
