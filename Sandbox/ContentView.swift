@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var firstName = CapitalizedWrapper(_value: "lukasz")
+    @State var lastName = CapitalizedWrapper(_value: "stachnik")
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        CapitalizedNamesView(firstName: $firstName,
+                             lastName: $lastName)
+    }
+}
+
+struct CapitalizedNamesView: View {
+    @Binding var firstName: CapitalizedWrapper
+    @Binding var lastName: CapitalizedWrapper
+    
+    var body: some View {
+        VStack(spacing: 8) {
+            Text(firstName.value)
+            Text(lastName.value)
         }
-        .padding()
     }
 }
 
